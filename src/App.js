@@ -3,7 +3,13 @@ import "./styles/App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Hello blud</h1>
+      <section className="cv-app">
+        <div className="user-tab">
+          <button id="preview">Preview Mode</button>
+          <button id="edit">Edit Mode</button>
+        </div>
+        <main className="Resume"></main>
+      </section>
     </div>
   );
 }

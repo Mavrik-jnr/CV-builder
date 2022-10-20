@@ -9,8 +9,31 @@ a {
   margin: 0;
 }
 
-main {
+.cv-app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.user-tab {
+  width: 1056px;
+  display: flex;
+  justify-content: flex-end;
+}
+#edit {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#preview {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.Resume {
   height: 1056px;
   width: 816px;
-  background-color: beige;
+  background-color: white;
+  box-shadow: 0px 0px 4px 1px rgb(189, 189, 189);
 }

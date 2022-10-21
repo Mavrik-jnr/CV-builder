@@ -1,0 +1,11 @@
+header {
+  grid-area: header;
+  /* width: 100%; */
+  /* min-height: min-content;s */
+  max-height: 400px;
+  /* height: min-content; */
+  /* background-color: aqua; */
+  /* display: grid;
+  grid-template-rows: 1fr 2fr; */
+  overflow: hidden;
+}

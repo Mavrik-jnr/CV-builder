@@ -1,0 +1,19 @@
+.info {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+}
+.info__school {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inline {
+  display: inline;
+}
+
+.year__section {
+  display: flex;
+  gap: 4px;
+}

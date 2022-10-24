@@ -1,0 +1,10 @@
+* {
+  /* display: none; */
+}
+.contact {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+}

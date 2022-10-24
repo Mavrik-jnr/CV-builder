@@ -16,12 +16,16 @@ export class Header extends Component {
         <h1>harry Griffiths</h1>
         <h3>Job Title</h3>
         <h2>profile</h2>
-
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
-          similique numquam dolor molestias corporis praesentium repudiandae
-          vero eos tempora at! Soluta iusto corrupti ab fuga ratione ipsa
-          accusamus a placeat.
+          Write a short brief introduction of just a few paragraphs explaining
+          exactly who you are, your strengths and why you feel you are such a
+          suitable candidate. Try to write it in the third person. Here is a
+          good example; "A champion of best practice who is organised and also
+          has the required level of skills needed to make every customer fell
+          special. A superb communicator who is able to get along with people
+          from all social backgrounds. (your name) is currently looking for a
+          suitable position with a reputable company where they will be able to
+          build a long term career and future for themselves."
         </p>
         <Input>
           Helloo00 Lorem ipsum dolor, sit amet consectetur adipisicing elit.

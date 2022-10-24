@@ -5,7 +5,7 @@ export class Career extends Component {
     return (
       <>
         <section className="career">
-          {/* <div className="">Career</div> */}
+          <h2>Career</h2>
           <p>
             Career Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Magnam similique numquam dolor molestias corporis praesentium

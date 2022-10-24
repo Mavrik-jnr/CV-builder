@@ -6,6 +6,7 @@ export class Sidebar extends Component {
     return (
       <>
         <aside>
+          <h2>Contact</h2>
           <p>
             Sidebar Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Magnam similique numquam dolor molestias corporis praesentium

@@ -35,6 +35,11 @@ h2::after {
 h3 {
   font-size: 16px;
   color: gray;
+  font-family: 700;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
 }
 /* The input element route */
 

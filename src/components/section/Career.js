@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./styles/Career.css";
+import styles from "./styles/Career.module.css";
 export class Career extends Component {
   render() {
     return (
       <>
-        <section className="career">
+        <section className={styles.career}>
           <h2>Career</h2>
           <p>
             Career Lorem ipsum dolor sit amet consectetur, adipisicing elit.

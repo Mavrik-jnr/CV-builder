@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Input from "../atomic/Input";
 
-import "./styles/Header.css";
+import styles from "./styles/Header.module.css";
 export class Header extends Component {
   constructor() {
     super();

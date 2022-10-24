@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ContactInfo from "../atomic/ContactInfo";
 import "./styles/Sidebar.css";
+import { Facebook } from "@mui/icons-material";
 export class Sidebar extends Component {
   render() {
     return (
@@ -13,7 +14,7 @@ export class Sidebar extends Component {
             repudiandae vero eos tempora at! Soluta iusto corrupti ab fuga
             ratione ipsa accusamus a placeat.
           </p>
-          <ContactInfo />
+          <ContactInfo svg={<Facebook />} />
         </aside>
       </>
     );

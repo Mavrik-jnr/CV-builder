@@ -37,8 +37,9 @@ export class Input extends Component {
         onClick={this.edit}
         contentEditable={this.state.contentEditable}
         suppressContentEditableWarning={true}
+        className={`inputElement  ${this.props.className}`}
       >
-        Hello
+        {this.props.children}
       </div>
     );
   }

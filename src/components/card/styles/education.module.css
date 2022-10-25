@@ -1,0 +1,11 @@
+.Education {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.educationInfo__section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

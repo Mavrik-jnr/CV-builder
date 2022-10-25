@@ -2,15 +2,9 @@ aside {
   grid-area: sidebar;
   display: grid;
   grid-auto-flow: 1fr;
-  gap: 16px;
+  gap: 24px;
   overflow: hidden;
   align-content: flex-start;
-}
-
-.contactInfo__section {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 /* aside h2 {

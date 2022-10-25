@@ -1,16 +1,11 @@
 .info {
   display: flex;
   gap: 16px;
-  padding: 4px;
 }
 .info__school {
   display: flex;
   flex-direction: column;
   gap: 4px;
-}
-
-.inline {
-  display: inline;
 }
 
 .year__section {

@@ -39,12 +39,13 @@ h3 {
   font-family: 700;
 }
 p {
-  font-size: 16px;
+  font-size: 14px;
 
   font-weight: 500;
 }
 ul {
   font-weight: 500;
+  font-size: 14px;
 }
 /* The input element route */
 

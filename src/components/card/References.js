@@ -5,7 +5,7 @@ import styles from "./styles/references.module.css";
 export default class References extends Component {
   render() {
     return (
-      <div className="References-card">
+      <div className={styles.References}>
         <h2>References</h2>
         <Input>
           <p>Add References here</p>

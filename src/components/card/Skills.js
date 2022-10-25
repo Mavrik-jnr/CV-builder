@@ -5,7 +5,7 @@ import styles from "./styles/skills.module.css";
 export default class Skills extends Component {
   render() {
     return (
-      <div className="skills-card">
+      <div className={styles.skill}>
         <h2>Skills</h2>
         <div className={styles.contactInfo__section}>
           <Input>

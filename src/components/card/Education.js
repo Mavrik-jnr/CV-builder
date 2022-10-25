@@ -5,9 +5,9 @@ import styles from "./styles/education.module.css";
 export default class Education extends Component {
   render() {
     return (
-      <div className="Education-card">
+      <div className={styles.Education}>
         <h2>Education</h2>
-        <div className={styles.contactInfo__section}>
+        <div className={styles.educationInfo__section}>
           <EducationInfo />
           <EducationInfo />
           <EducationInfo />

@@ -1,0 +1,10 @@
+.contactInfo__section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

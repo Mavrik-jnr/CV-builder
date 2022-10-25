@@ -6,7 +6,7 @@ import styles from "./styles/contact.module.css";
 export default class Contact extends Component {
   render() {
     return (
-      <div className="contact-card">
+      <div className={styles.contact}>
         <h2>Contact</h2>
         <div className={styles.contactInfo__section}>
           <ContactInfo svg={<Facebook />} />

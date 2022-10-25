@@ -1,0 +1,57 @@
+.careers {
+  width: fit-content;
+}
+.career {
+  display: flex;
+  gap: 24px;
+}
+.career__header {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  gap: 80px;
+  flex: 1;
+  /* width: 100%; */
+}
+.career__header h3 {
+  color: black;
+  font-weight: 500;
+  flex: initial;
+  font-size: 16px;
+}
+.career__header p {
+  flex: 1;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  /* width: 100%; */
+}
+.description {
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.year__section {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 0px;
+}
+.career__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  /* background-color: red; */
+}
+.career__desc ul {
+  /* justify-self: center;
+    align-self: flex-start; */
+  margin: 0;
+  /* width: 100%; */
+  /* text-align: center; */
+
+  padding-inline: 24px;
+}

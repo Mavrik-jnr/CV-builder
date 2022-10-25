@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CareerCard from "../card/CareerCard";
+import ExperienceComponent from "../utility/ExperienceComponent";
 
 import styles from "./styles/Career.module.css";
 export class Career extends Component {
@@ -7,9 +8,7 @@ export class Career extends Component {
     return (
       <div className={styles.career__section}>
         <h2>Career</h2>
-        <CareerCard />
-        <CareerCard />
-        <CareerCard />
+        <ExperienceComponent />
       </div>
     );
   }

@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import styles from "./styles/App.module.css";
 
 import React, { Component } from "react";
 import Header from "./components/section/Header";
@@ -8,14 +8,14 @@ import Career from "./components/section/Career";
 export class App extends Component {
   render() {
     return (
-      <div className="App">
-        <section className="cv-app">
-          <div className="user-tab">
-            <button id="preview">Preview Mode</button>
-            <button id="edit">Edit Mode</button>
+      <div className={styles.App}>
+        <section className={styles.cv}>
+          <div className={styles.user}>
+            <button id={styles.preview}>Preview Mode</button>
+            <button id={styles.edit}>Edit Mode</button>
           </div>
-          <main className="Resume">
-            <article className="Resume-content">
+          <main className={styles.Resume}>
+            <article className={styles.ResumeContent}>
               <Header />
               <Sidebar />
               <Career />

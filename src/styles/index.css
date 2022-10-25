@@ -27,14 +27,14 @@ h2::after {
   display: block;
   width: 100%;
   position: absolute;
-  bottom: -5px;
-  height: 3px;
+  bottom: -4px;
+  height: 4px;
   border-radius: 8px;
   background-color: rgb(42, 175, 155);
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 22px;
   color: gray;
   font-family: 700;
 }

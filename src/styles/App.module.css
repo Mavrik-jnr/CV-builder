@@ -10,7 +10,7 @@ aside {
   margin: 0;
 }
 
-.cv-app {
+.cv {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -19,7 +19,7 @@ aside {
   padding-top: 24px;
 }
 
-.user-tab {
+.user {
   width: 1056px;
   display: flex;
   justify-content: flex-end;
@@ -42,7 +42,7 @@ aside {
   /* display: grid; */
   /* grid-template-rows: minmax(auto, 1056px); */
 }
-.Resume article {
+.ResumeContent {
   max-height: 100%;
   /* height: fit-content; */
   display: grid;
@@ -53,5 +53,5 @@ aside {
     "sidebar career";
   /* border: 2px solid; */
   overflow: hidden;
-  gap: 10px;
+  gap: 16px;
 }

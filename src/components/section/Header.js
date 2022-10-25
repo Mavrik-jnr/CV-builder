@@ -13,7 +13,9 @@ export class Header extends Component {
   render() {
     return (
       <header>
-        <h1>harry Griffiths</h1>
+        <Input>
+          <h1>harry Griffiths</h1>
+        </Input>
         <Input>
           <h3>Job Title</h3>
         </Input>

@@ -9,3 +9,7 @@ header {
   grid-template-rows: 1fr 2fr; */
   overflow: hidden;
 }
+header h2 {
+  margin-bottom: 8px;
+  margin-top: 4px;
+}

@@ -38,6 +38,7 @@ aside {
   background-color: white;
   box-shadow: 0px 0px 4px 1px rgb(189, 189, 189);
   overflow: hidden;
+  padding: 24px;
   /* display: grid; */
   /* grid-template-rows: minmax(auto, 1056px); */
 }
@@ -50,7 +51,7 @@ aside {
   grid-template-areas:
     "header header"
     "sidebar career";
-  border: 2px solid;
+  /* border: 2px solid; */
   overflow: hidden;
   gap: 10px;
 }

@@ -1,15 +1,18 @@
 aside {
   grid-area: sidebar;
   display: grid;
-  gap: 10px;
+  grid-auto-flow: 1fr;
+  gap: 16px;
   overflow: hidden;
   align-content: flex-start;
-  /* min-height: min-content;
-  max-height: 656px; */
-  /* margin: 0px; */
 }
 
-/* aside p {
-  margin: 0px;
+.contactInfo__section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
+/* aside h2 {
+  margin-bottom: 16px;
 } */

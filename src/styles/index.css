@@ -40,7 +40,11 @@ h3 {
 }
 p {
   font-size: 16px;
-  font-weight: 400;
+
+  font-weight: 500;
+}
+ul {
+  font-weight: 500;
 }
 /* The input element route */
 

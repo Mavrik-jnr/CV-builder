@@ -9,7 +9,9 @@ export default class ContactInfo extends Component {
     return (
       <div className={styles.contact}>
         {svg ? svg : <ContactPhone />}
-        <Input>Add Contact Info</Input>
+        <Input>
+          <p>Add Contact Info</p>
+        </Input>
       </div>
     );
   }

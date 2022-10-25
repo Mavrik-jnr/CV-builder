@@ -37,11 +37,21 @@ export class Career extends Component {
                   </p>
                 </Input>
                 <ul>
-                  <li>Concisely describe your most relevant duties</li>
-                  <li>Concisely describe your most relevant duties</li>
-                  <li>Concisely describe your most relevant duties</li>
-                  <li>Concisely describe your most relevant duties</li>
-                  <li>Concisely describe your most relevant duties</li>
+                  <li>
+                    <Input>Concisely describe your most relevant duties</Input>
+                  </li>
+                  <li>
+                    <Input>Concisely describe your most relevant duties</Input>
+                  </li>
+                  <li>
+                    <Input>Concisely describe your most relevant duties</Input>
+                  </li>
+                  <li>
+                    <Input>Concisely describe your most relevant duties</Input>
+                  </li>
+                  <li>
+                    <Input>Concisely describe your most relevant duties</Input>
+                  </li>
                 </ul>
               </div>
             </article>

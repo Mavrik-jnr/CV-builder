@@ -8,4 +8,6 @@
   /* max-height: 656px;s */
   /* display: grid; */
   /* gap: 0px; */
+  position: relative;
+  border: 1px dotted rgb(195, 194, 194);
 }

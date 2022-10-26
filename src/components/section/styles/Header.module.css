@@ -8,6 +8,8 @@ header {
   /* display: grid;
   grid-template-rows: 1fr 2fr; */
   overflow: hidden;
+  position: relative;
+  border: 1px dotted rgb(195, 194, 194);
 }
 header h2 {
   margin-bottom: 8px;

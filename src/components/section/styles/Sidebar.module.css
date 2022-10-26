@@ -5,6 +5,8 @@ aside {
   gap: 24px;
   overflow: hidden;
   align-content: flex-start;
+  position: relative;
+  border: 1px dotted rgb(195, 194, 194);
 }
 
 /* aside h2 {

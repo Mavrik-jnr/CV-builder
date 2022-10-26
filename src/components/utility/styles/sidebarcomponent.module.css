@@ -1,0 +1,43 @@
+.dropDown {
+  position: absolute;
+  right: 0;
+  font-size: 32px;
+}
+.dropDown :hover {
+  color: rgb(42, 175, 155);
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  top: 24px;
+  right: 0px;
+  border: 1px solid black;
+  /* border-left: px solid black; */
+  border-radius: 4px;
+  width: 100px;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+
+  cursor: pointer;
+  font-weight: 500;
+}
+.menuItem:hover {
+  background-color: rgb(42, 175, 155);
+  color: white;
+}
+
+.menu[display=""] {
+  display: none;
+}
+.menu[display="block"] {
+  display: block;
+}
